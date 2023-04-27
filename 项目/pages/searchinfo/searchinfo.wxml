@@ -1,0 +1,26 @@
+<view class="search">
+  <image class="searchicon" src="../../image/search.png" bindtap="btn"></image>
+  <input value="{{_search}}" bindinput="getSearch" placeholder="搜索文本" type="text" />
+</view>
+<view class="v4">
+   <view class="v41">
+     <view class="t1">07</view>
+     <view class="t2">3月</view>
+   </view>
+   <view class="v42" bindtap="goto">
+   <view class="v42t">
+     这是一个标题
+   </view>
+   <view class="v42l">
+    <view class="v3-1-l1">
+         这是编译时间
+       </view>
+       <view class="v3-1-l2">
+         <view class="ss2">
+           分类1
+         </view>
+         
+       </view>
+   </view>
+   </view>
+ </view>

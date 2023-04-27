@@ -1,0 +1,4 @@
+<view class="search">
+  <image class="searchicon" src="../../image/search.png" bindtap="btn"></image>
+  <input value="{{_search}}" bindinput="getSearch" placeholder="搜索文本" type="text" />
+</view>

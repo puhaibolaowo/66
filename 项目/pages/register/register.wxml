@@ -1,0 +1,17 @@
+<view class="register">
+  <text class="register-text">注册</text>
+</view>
+<view class="body">
+  <view>
+    <input class="phone" type="text" placeholder="请输入手机号" bindinput="getPhone" />
+  </view>
+  <view>
+    <input class="password" type="text" placeholder="请输入密码" bindinput="getPassword" />
+  </view>
+</view>
+<view class="text">
+  <text bindtap="return" class="enroll">返回登录</text>
+</view>
+<view class="button">
+  <button class="btn" bindtap="register">确认注册</button>
+</view>

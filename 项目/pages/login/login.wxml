@@ -1,0 +1,17 @@
+<view class="login">
+  <text class="login-text">登录</text>
+</view>
+<view class="body">
+  <view>
+    <input class="phone" type="text" placeholder="请输入手机号" bindinput="getPhone" />
+  </view>
+  <view>
+    <input class="password" type="text" placeholder="请输入密码" bindinput="getPassword" />
+  </view>
+</view>
+<view class="text">
+  <text bindtap="toenroll" class="enroll">立即注册</text>
+</view>
+<view class="button">
+  <button class="btn" bindtap="login">登录</button>
+</view>

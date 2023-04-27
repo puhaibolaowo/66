@@ -1,0 +1,16 @@
+<view bindtap="min">
+  <image class="min" src="../../image/min.png"></image>
+</view>
+
+<view class="cell1"  bindtap="reset">
+  <view class="cell-left">
+    <text>重设密码</text>
+  </view>
+  <view class="cell-right">></view>
+</view>
+<view class="cell2"  bindtap="exit">
+  <view class="cell-left">
+    <text>退出登录</text>
+  </view>
+  <view class="cell-right">></view>
+</view>

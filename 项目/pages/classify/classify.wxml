@@ -1,0 +1,28 @@
+<view bindtap="min">
+  <image class="min" src="../../image/min.png"></image>
+</view>
+
+<view class="cell1" bindtap="reset">
+  <view class="cell-left">
+    <text>分类名1</text>
+  </view>
+  <view class="cell-right">></view>
+</view>
+<view class="cell1" bindtap="reset">
+  <view class="cell-left">
+    <text>分类名2</text>
+  </view>
+  <view class="cell-right">></view>
+</view>
+<view class="cell1" bindtap="reset">
+  <view class="cell-left">
+    <text>分类名3</text>
+  </view>
+  <view class="cell-right">></view>
+</view>
+<view class="cell1" bindtap="reset">
+  <image src="../../image/editt.png" class="image"></image>
+  <view class="cell-left">
+    <text>分类名3</text>
+  </view>
+</view>

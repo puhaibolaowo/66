@@ -1,0 +1,17 @@
+<view class="login">
+  <text class="login-text">重新设置密码</text>
+</view>
+<view class="prompt">
+  <text class="prompt-text">8-20个字符，不可以是纯数字</text>
+</view>
+<view class="body">
+  <view>
+    <input class="phone" type="text" placeholder="请输入原密码" bindinput="getPhone" />
+  </view>
+  <view>
+    <input class="password" type="text" placeholder="请输入新密码" bindinput="getPassword" />
+  </view>
+</view>
+<view class="button">
+  <button class="btn" bindtap="collect">完成</button>
+</view>

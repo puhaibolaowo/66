@@ -1,0 +1,50 @@
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100rpx 0;
+}
+.info .avatarUrl{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+.info .nickName{
+  color: #fff;
+  margin-top: 30rpx;
+}
+.cell1{
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 30rpx 20rpx;
+  margin: 20rpx;
+  border-radius: 20rpx;
+  align-items: center;
+}
+.cell2{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(220, 30, 30, 1);
+  color: rgb(255, 255, 255);
+  padding: 30rpx 20rpx;
+  margin: 20rpx;
+  border-radius: 20rpx;
+  align-items: center;
+}
+.cell-left text{
+  margin-left: 20rpx;
+}
+.cell-left{
+  display: flex;
+  align-items: center;
+}
+.cell-right{
+  font-size: 50rpx;
+}
+.min{
+  margin-left: 50rpx;
+  height: 50rpx;
+  width: 50rpx;
+}

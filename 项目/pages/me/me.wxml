@@ -1,0 +1,10 @@
+<view class="info">
+  <image class="avatarUrl" src="{{avatarUrl}}"></image>
+  <text class="nickName">{{nickName}}</text>
+</view>
+<view class="cell">
+  <view class="cell-left">
+    <text>分类管理</text>
+  </view>
+  <view class="cell-right" bindtap="todetail">></view>
+</view>

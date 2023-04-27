@@ -1,0 +1,161 @@
+
+<view class="">
+ <view class="v1">
+  <picker mode="selector" bindchange="bindPickerChange"  range="{{array1}}" class="p1">
+                <view class="pv">分类名</view>
+            </picker>
+  <view class="sv1">
+    <image src="/images/record.png" ></image>
+  </view>
+  <view class="sv2">
+    <image src="/images/history.png" ></image>
+  </view>
+ </view>
+ <view class="v2">
+   2022
+ </view>
+ <view class="v3">
+   <view class="v3-1">
+     <view class="v3-1-t">
+       这是一个标题
+     </view>
+     <view class="v3-1-l">
+       <view class="v3-1-l1">
+         这是编译时间
+       </view>
+       <view class="v3-1-l2">
+         <view class="ss1">
+           分类1
+         </view>
+         <view class="ss2">
+           分类2
+         </view>
+       </view>
+     </view>
+   </view>
+   <view class="v3-2">
+     删除
+   </view>
+ </view>
+ <view class="v4">
+   <view class="v41">
+     <view class="t1">02</view>
+     <view class="t2">3月</view>
+   </view>
+   <view class="v42" bindtap="goto">
+   <view class="v42t">
+     这是一个标题
+   </view>
+   <view class="v42l">
+    <view class="v3-1-l1">
+         这是编译时间
+       </view>
+       <view class="v3-1-l2">
+         <view class="ss2">
+           分类1
+         </view>
+         
+       </view>
+   </view>
+    
+   </view>
+ </view>
+ <view class="v4">
+   <view class="v41">
+     <view class="t1">26</view>
+     <view class="t2">2月</view>
+   </view>
+   <view class="v42">
+   <view class="v42t" bindtap="goto">
+     这是一个标题
+   </view>
+   <view class="v42l">
+    <view class="v3-1-l1">
+         这是编译时间
+       </view>
+       <view class="v3-1-l2">
+         
+         <view class="ss2">
+           分类2
+         </view>
+       </view>
+   </view>
+    
+   </view>
+ </view>
+ <view class="v2">
+   2021
+ </view>
+ <view class="v4">
+   <view class="v41">
+     <view class="t1">07</view>
+     <view class="t2">3月</view>
+   </view>
+   <view class="v42">
+   <view class="v42t" bindtap="goto">
+     这是一个标题
+   </view>
+   <view class="v42l">
+    <view class="v3-1-l1">
+         这是编译时间
+       </view>
+       <view class="v3-1-l2">
+         
+         <view class="ss2">
+           分类4
+         </view>
+       </view>
+   </view>
+    
+   </view>
+ </view>
+ <view class="v4">
+   <view class="v41">
+     <view class="t1">02</view>
+     <view class="t2">3月</view>
+   </view>
+   <view class="v42">
+   <view class="v42t" bindtap="goto">
+     这是一个标题
+   </view>
+   <view class="v42l">
+    <view class="v3-1-l1">
+         这是编译时间
+       </view>
+       <view class="v3-1-l2">
+        <view class="ss1">
+           分类2
+         </view>
+         <view class="ss2">
+           分类3
+         </view>
+       </view>
+   </view>
+    
+   </view>
+ </view>
+ <view class="v4">
+   <view class="v41">
+     <view class="t1">26</view>
+     <view class="t2">2月</view>
+   </view>
+   <view class="v42">
+   <view class="v42t" bindtap="goto">
+     这是一个标题
+   </view>
+   <view class="v42l">
+    <view class="v3-1-l1">
+         这是编译时间
+       </view>
+       <view class="v3-1-l2">
+      
+         <view class="ss2">
+           分类1
+         </view>
+       </view>
+   </view>
+    
+   </view>
+ </view>
+</view>
+
